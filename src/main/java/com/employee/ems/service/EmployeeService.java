@@ -6,3 +6,6 @@ public interface EmployeeService {
 	EmployeeDto createEmployeeService(EmployeeDto employeeDto);
 
 }
+
+//dummy
+//EmployeeDto createEmployee(EmployeeDto employeeDto);

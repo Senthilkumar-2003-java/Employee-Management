@@ -3,6 +3,8 @@ package com.employee.ems.mapper;
 import com.employee.ems.dto.EmployeeDto;
 import com.employee.ems.entity.Employee;
 
+
+
 public class EmployeeMapper {
 	
 	public static EmployeeDto mapToEmployeeDto(Employee employee) {
@@ -28,3 +30,37 @@ public class EmployeeMapper {
 	}
 
 }
+
+
+//dummy
+//package com.employee.ems.mapper;
+//
+//import com.employee.ems.dto.EmployeeDto;
+//import com.employee.ems.entity.Employee;
+//
+//public class EmployeeMapper {
+//
+//    public static EmployeeDto toDto(Employee emp) {
+//        if (emp == null) {
+//            return null;
+//        }
+//        return new EmployeeDto(
+//            emp.getId(),
+//            emp.getFirstName(),
+//            emp.getLastName(),
+//            emp.getEmail()
+//        );
+//    }
+//
+//    public static Employee toEntity(EmployeeDto dto) {
+//        if (dto == null) {
+//            return null;
+//        }
+//        return new Employee(
+//            dto.getId(),
+//            dto.getFirstName(),
+//            dto.getLastName(),
+//            dto.getEmail()
+//        );
+//    }
+//}

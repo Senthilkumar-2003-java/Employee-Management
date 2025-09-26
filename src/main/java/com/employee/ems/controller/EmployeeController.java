@@ -29,3 +29,34 @@ public class EmployeeController {
 	}
 
 }
+
+
+//dmmy
+//
+//package com.employee.ems.controller;
+//
+//import org.springframework.http.HttpStatus;
+//import org.springframework.http.ResponseEntity;
+//import org.springframework.web.bind.annotation.*;
+//
+//import com.employee.ems.dto.EmployeeDto;
+//import com.employee.ems.service.EmployeeService;
+//
+//@RestController
+//@RequestMapping("/api/employees")
+//public class EmployeeController {
+//
+//    private final EmployeeService employeeService;
+//
+//    // constructor injection
+//    public EmployeeController(EmployeeService employeeService) {
+//        this.employeeService = employeeService;
+//    }
+//
+//    @PostMapping
+//    public ResponseEntity<EmployeeDto> createEmployee(@RequestBody EmployeeDto employeeDto) {
+//        EmployeeDto saved = employeeService.createEmployee(employeeDto);
+//        return new ResponseEntity<>(saved, HttpStatus.CREATED);
+//    }
+//}
+//
